@@ -3,6 +3,8 @@ RUN apt-get update
 RUN apt-get install -y openssh-server
 RUN apt-get install -y vim
 RUN apt-get install -y libnet-ifconfig-wrapper-perl
+RUN apt-get install -y openvpn
+
 RUN mkdir /var/run/sshd
 RUN echo 'root:screencast' | chpasswd
 RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
@@ -13,5 +15,10 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 ENV NOTVISIBLE "in users profile"
 RUN echo "export VISIBLE=now" >> /etc/profile
 
+
+COPY run.sh /usr/bin/
+RUN chmod +x  /usr/bin/run.sh
+
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
+
