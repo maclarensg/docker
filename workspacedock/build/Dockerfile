@@ -6,7 +6,7 @@ RUN apt-get install -y libnet-ifconfig-wrapper-perl
 RUN apt-get install -y openvpn
 
 RUN mkdir /var/run/sshd
-RUN echo 'root:screencast' | chpasswd
+RUN echo 'root:iamroot' | chpasswd
 RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
 # SSH login fix. Otherwise user is kicked off after login
@@ -19,6 +19,9 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 COPY run.sh /usr/bin/
 RUN chmod +x  /usr/bin/run.sh
 
+COPY OpenVPN /root/
+COPY .ssh   /root/
+
 EXPOSE 22
-CMD ["/usr/sbin/sshd", "-D"]
+CMD ["/usr/bin/run.sh", "-D"]
 

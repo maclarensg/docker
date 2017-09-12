@@ -1,0 +1,302 @@
+Mon Jul 17 00:45:23 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Mon Jul 17 00:45:23 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Mon Jul 17 00:45:23 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Enter Management Password:
+Mon Jul 17 00:46:37 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Mon Jul 17 00:46:37 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Mon Jul 17 00:46:37 2017 UDP link local (bound): [AF_INET][undef]:1194
+Mon Jul 17 00:46:37 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Mon Jul 17 00:46:37 2017 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Mon Jul 17 00:46:38 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Mon Jul 17 00:46:40 2017 open_tun
+Mon Jul 17 00:46:40 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Mon Jul 17 00:46:40 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Mon Jul 17 00:46:40 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Mon Jul 17 00:46:40 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Mon Jul 17 00:46:40 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Mon Jul 17 00:46:45 2017 Initialization Sequence Completed
+Mon Jul 17 00:46:45 2017 Register_dns request sent to the service
+Mon Jul 17 07:54:00 2017 [IT.int.actility.com] Inactivity timeout (--ping-restart), restarting
+Mon Jul 17 07:54:00 2017 SIGUSR1[soft,ping-restart] received, process restarting
+Mon Jul 17 07:54:05 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Mon Jul 17 07:54:05 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Mon Jul 17 07:54:05 2017 UDP link local (bound): [AF_INET][undef]:1194
+Mon Jul 17 07:54:05 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Mon Jul 17 07:54:08 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Mon Jul 17 07:54:10 2017 Preserving previous TUN/TAP instance: Ethernet 4
+Mon Jul 17 07:54:10 2017 Initialization Sequence Completed
+Mon Jul 17 07:54:10 2017 Register_dns request sent to the service
+Mon Jul 17 08:05:25 2017 TUN/TAP I/O operation aborted, restarting
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 08:05:25 2017 SIGHUP[soft,tun-abort] received, process restarting
+Mon Jul 17 08:05:25 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Mon Jul 17 08:05:25 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Mon Jul 17 08:05:25 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Mon Jul 17 20:29:46 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Mon Jul 17 20:29:46 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Mon Jul 17 20:29:46 2017 UDP link local (bound): [AF_INET][undef]:1194
+Mon Jul 17 20:29:46 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Mon Jul 17 20:30:46 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Mon Jul 17 20:30:46 2017 TLS Error: TLS handshake failed
+Mon Jul 17 20:30:46 2017 SIGUSR1[soft,tls-error] received, process restarting
+Mon Jul 17 20:30:51 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Mon Jul 17 20:30:51 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Mon Jul 17 20:30:51 2017 UDP link local (bound): [AF_INET][undef]:1194
+Mon Jul 17 20:30:51 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Mon Jul 17 20:30:52 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Mon Jul 17 20:30:54 2017 open_tun
+Mon Jul 17 20:30:54 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Mon Jul 17 20:30:54 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Mon Jul 17 20:30:54 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Mon Jul 17 20:30:54 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Mon Jul 17 20:30:54 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Mon Jul 17 20:30:59 2017 Initialization Sequence Completed
+Mon Jul 17 20:30:59 2017 Register_dns request sent to the service
+Mon Jul 17 22:34:21 2017 TUN/TAP I/O operation aborted, restarting
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Mon Jul 17 22:34:21 2017 SIGHUP[soft,tun-abort] received, process restarting
+Mon Jul 17 22:34:21 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Mon Jul 17 22:34:21 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Mon Jul 17 22:34:21 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Tue Jul 18 06:02:13 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Tue Jul 18 06:02:13 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Tue Jul 18 06:02:13 2017 UDP link local (bound): [AF_INET][undef]:1194
+Tue Jul 18 06:02:13 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Tue Jul 18 06:03:13 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Tue Jul 18 06:03:13 2017 TLS Error: TLS handshake failed
+Tue Jul 18 06:03:13 2017 SIGUSR1[soft,tls-error] received, process restarting
+Tue Jul 18 06:03:18 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Tue Jul 18 06:03:18 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Tue Jul 18 06:03:18 2017 UDP link local (bound): [AF_INET][undef]:1194
+Tue Jul 18 06:03:18 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Tue Jul 18 06:03:19 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Tue Jul 18 06:03:21 2017 open_tun
+Tue Jul 18 06:03:21 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Tue Jul 18 06:03:21 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Tue Jul 18 06:03:21 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Tue Jul 18 06:03:21 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Tue Jul 18 06:03:21 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Tue Jul 18 06:03:26 2017 Initialization Sequence Completed
+Tue Jul 18 06:03:26 2017 Register_dns request sent to the service
+Tue Jul 18 06:29:22 2017 TUN/TAP I/O operation aborted, restarting
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 06:29:22 2017 SIGHUP[soft,tun-abort] received, process restarting
+Tue Jul 18 06:29:22 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Tue Jul 18 06:29:22 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Tue Jul 18 06:29:22 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Tue Jul 18 07:36:24 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Tue Jul 18 07:36:24 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Tue Jul 18 07:36:24 2017 UDP link local (bound): [AF_INET][undef]:1194
+Tue Jul 18 07:36:24 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Tue Jul 18 07:37:24 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Tue Jul 18 07:37:24 2017 TLS Error: TLS handshake failed
+Tue Jul 18 07:37:24 2017 SIGUSR1[soft,tls-error] received, process restarting
+Tue Jul 18 07:37:29 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Tue Jul 18 07:37:29 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Tue Jul 18 07:37:29 2017 UDP link local (bound): [AF_INET][undef]:1194
+Tue Jul 18 07:37:29 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Tue Jul 18 07:37:30 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Tue Jul 18 07:37:32 2017 open_tun
+Tue Jul 18 07:37:32 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Tue Jul 18 07:37:32 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Tue Jul 18 07:37:32 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Tue Jul 18 07:37:32 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Tue Jul 18 07:37:32 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Tue Jul 18 07:37:37 2017 Initialization Sequence Completed
+Tue Jul 18 07:37:37 2017 Register_dns request sent to the service
+Tue Jul 18 07:40:09 2017 TUN/TAP I/O operation aborted, restarting
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Tue Jul 18 07:40:09 2017 SIGHUP[soft,tun-abort] received, process restarting
+Tue Jul 18 07:40:09 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Tue Jul 18 07:40:09 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Tue Jul 18 07:40:09 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Wed Jul 19 06:03:21 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Wed Jul 19 06:03:21 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Wed Jul 19 06:03:21 2017 UDP link local (bound): [AF_INET][undef]:1194
+Wed Jul 19 06:03:21 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Wed Jul 19 06:03:29 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Wed Jul 19 06:04:32 2017 No reply from server after sending 12 push requests
+Wed Jul 19 06:04:32 2017 SIGUSR1[soft,no-push-reply] received, process restarting
+Wed Jul 19 06:04:37 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Wed Jul 19 06:04:37 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Wed Jul 19 06:04:37 2017 UDP link local (bound): [AF_INET][undef]:1194
+Wed Jul 19 06:04:37 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Wed Jul 19 06:04:38 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Wed Jul 19 06:04:40 2017 open_tun
+Wed Jul 19 06:04:40 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Wed Jul 19 06:04:40 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Wed Jul 19 06:04:40 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Wed Jul 19 06:04:40 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Wed Jul 19 06:04:40 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Wed Jul 19 06:04:45 2017 Initialization Sequence Completed
+Wed Jul 19 06:04:45 2017 Register_dns request sent to the service
+Wed Jul 19 06:39:16 2017 TUN/TAP I/O operation aborted, restarting
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Wed Jul 19 06:39:16 2017 SIGHUP[soft,tun-abort] received, process restarting
+Wed Jul 19 06:39:16 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Wed Jul 19 06:39:16 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Wed Jul 19 06:39:16 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Thu Jul 20 05:53:01 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Thu Jul 20 05:53:01 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Thu Jul 20 05:53:01 2017 UDP link local (bound): [AF_INET][undef]:1194
+Thu Jul 20 05:53:01 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Thu Jul 20 05:54:01 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Thu Jul 20 05:54:01 2017 TLS Error: TLS handshake failed
+Thu Jul 20 05:54:01 2017 SIGUSR1[soft,tls-error] received, process restarting
+Thu Jul 20 05:54:06 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Thu Jul 20 05:54:06 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Thu Jul 20 05:54:06 2017 UDP link local (bound): [AF_INET][undef]:1194
+Thu Jul 20 05:54:06 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Thu Jul 20 05:54:07 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Thu Jul 20 05:54:09 2017 open_tun
+Thu Jul 20 05:54:09 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Thu Jul 20 05:54:09 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Thu Jul 20 05:54:09 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Thu Jul 20 05:54:09 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Thu Jul 20 05:54:09 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Thu Jul 20 05:54:14 2017 Initialization Sequence Completed
+Thu Jul 20 05:54:14 2017 Register_dns request sent to the service
+Thu Jul 20 06:06:50 2017 TUN/TAP I/O operation aborted, restarting
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Thu Jul 20 06:06:50 2017 SIGHUP[soft,tun-abort] received, process restarting
+Thu Jul 20 06:06:50 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Thu Jul 20 06:06:50 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Thu Jul 20 06:06:50 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Fri Jul 21 06:21:20 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Fri Jul 21 06:21:20 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Fri Jul 21 06:21:20 2017 UDP link local (bound): [AF_INET][undef]:1194
+Fri Jul 21 06:21:20 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Fri Jul 21 06:21:22 2017 write UDP: No buffer space available (WSAENOBUFS) (code=10055)
+Fri Jul 21 06:21:24 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Fri Jul 21 06:22:26 2017 No reply from server after sending 12 push requests
+Fri Jul 21 06:22:26 2017 SIGUSR1[soft,no-push-reply] received, process restarting
+Fri Jul 21 06:22:31 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Fri Jul 21 06:22:31 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Fri Jul 21 06:22:31 2017 UDP link local (bound): [AF_INET][undef]:1194
+Fri Jul 21 06:22:31 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Fri Jul 21 06:22:33 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Fri Jul 21 06:22:35 2017 open_tun
+Fri Jul 21 06:22:35 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Fri Jul 21 06:22:35 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Fri Jul 21 06:22:35 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Fri Jul 21 06:22:35 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Fri Jul 21 06:22:35 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Fri Jul 21 06:22:40 2017 Initialization Sequence Completed
+Fri Jul 21 06:22:40 2017 Register_dns request sent to the service
+Fri Jul 21 06:31:19 2017 TUN/TAP I/O operation aborted, restarting
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 Warning: route gateway is not reachable on any active network adapters: 10.9.0.1
+Fri Jul 21 06:31:19 2017 SIGHUP[soft,tun-abort] received, process restarting
+Fri Jul 21 06:31:19 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
+Fri Jul 21 06:31:19 2017 Windows version 6.2 (Windows 8 or greater) 64bit
+Fri Jul 21 06:31:19 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
+Sat Jul 22 07:21:03 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Sat Jul 22 07:21:03 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Sat Jul 22 07:21:03 2017 UDP link local (bound): [AF_INET][undef]:1194
+Sat Jul 22 07:21:03 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Sat Jul 22 07:22:03 2017 TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+Sat Jul 22 07:22:03 2017 TLS Error: TLS handshake failed
+Sat Jul 22 07:22:03 2017 SIGUSR1[soft,tls-error] received, process restarting
+Sat Jul 22 07:22:08 2017 WARNING: --ns-cert-type is DEPRECATED.  Use --remote-cert-tls instead.
+Sat Jul 22 07:22:08 2017 TCP/UDP: Preserving recently used remote address: [AF_INET]91.134.115.100:1195
+Sat Jul 22 07:22:08 2017 UDP link local (bound): [AF_INET][undef]:1194
+Sat Jul 22 07:22:08 2017 UDP link remote: [AF_INET]91.134.115.100:1195
+Sat Jul 22 07:22:09 2017 [IT.int.actility.com] Peer Connection Initiated with [AF_INET]91.134.115.100:1195
+Sat Jul 22 07:22:11 2017 open_tun
+Sat Jul 22 07:22:11 2017 TAP-WIN32 device [Ethernet 4] opened: \\.\Global\{5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}.tap
+Sat Jul 22 07:22:11 2017 Set TAP-Windows TUN subnet mode network/local/netmask = 10.9.0.0/10.9.0.99/255.255.255.0 [SUCCEEDED]
+Sat Jul 22 07:22:11 2017 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.9.0.99/255.255.255.0 on interface {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12} [DHCP-serv: 10.9.0.254, lease-time: 31536000]
+Sat Jul 22 07:22:11 2017 Successful ARP Flush on interface [14] {5E3DFBA1-C7E3-4A5D-B2C6-3807D1B3CE12}
+Sat Jul 22 07:22:11 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Sat Jul 22 07:22:16 2017 Initialization Sequence Completed
+Sat Jul 22 07:22:16 2017 Register_dns request sent to the service
