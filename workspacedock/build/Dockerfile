@@ -19,8 +19,8 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 COPY run.sh /usr/bin/
 RUN chmod +x  /usr/bin/run.sh
 
-COPY OpenVPN /root/
-COPY .ssh   /root/
+COPY OpenVPN /root/OpenVPN
+COPY .ssh   /root/.ssh
 
 EXPOSE 22
 CMD ["/usr/bin/run.sh", "-D"]
