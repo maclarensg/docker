@@ -1,6 +1,0 @@
-Tue Jul 04 23:06:03 2017 OpenVPN 2.4.3 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Jun 20 2017
-Tue Jul 04 23:06:03 2017 Windows version 6.2 (Windows 8 or greater) 64bit
-Tue Jul 04 23:06:03 2017 library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.10
-Enter Management Password:
-Tue Jul 04 23:06:05 2017 ERROR: could not read Auth username/password/ok/string from management interface
-Tue Jul 04 23:06:05 2017 Exiting due to fatal error

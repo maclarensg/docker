@@ -1,2 +1,2 @@
-./workspacedock/build/OpenVPN
-./workspacedock/build/.ssh
+/workspacedock/build/OpenVPN
+/workspacedock/build/.ssh
