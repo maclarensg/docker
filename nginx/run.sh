@@ -89,6 +89,7 @@ function check_nginx_conf_directory {
         mkdir -p $NGINX_CONF_DIR
     fi   
 }
+
 function check_nginx_conf_contents {
     if [ "$(ls -A $NGINX_CONF_DIR)" ]
     then
@@ -118,4 +119,6 @@ check_nginx_log_ownership
 check_nginx_conf_directory
 check_nginx_conf_contents
 
-nginx -c /var/nginx/confg/nginx.conf -g 'daemon off;'
+#nginx -c /var/nginx/config/nginx.conf -g 'daemon off;'
+service nginx start
+/bin/bash
