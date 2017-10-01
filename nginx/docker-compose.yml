@@ -6,7 +6,9 @@ services:
     hostname: feproxy
     container_name: feproxy
     volumes:
-      - /home/gavinyap/docker/nginx/www:/var/www
+      - /home/gavinyap/docker/nginx/www:/var/nginx/www
+      - /home/gavinyap/docker/nginx/log:/var/nginx/log
+      - /home/gavinyap/docker/nginx/config:/var/nginx/config
     ports:
       - "80:80"
       - "443:443"
