@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  nginx:  
+    image: maclarensg/nginx
+    tty: true
+    hostname: feproxy
+    container_name: feproxy
+    volumes:
+      - /home/gavinyap/docker/nginx/www:/var/www
+    ports:
+      - "80:80"
+      - "443:443"
+    entrypoint: /usr/bin/run.sh
