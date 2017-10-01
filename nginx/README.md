@@ -42,3 +42,8 @@ docker-compose up -d
 docker exec -it feproxy /bin/bash -l
 ```
 
+## Take Note
+
+The sites-enabled of the nginx may point to /etc/nginx/sites-available instead of /var/nginx/config/sites-available. You have to manually fixed this
+
+
