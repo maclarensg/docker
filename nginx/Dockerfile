@@ -4,10 +4,12 @@ FROM ubuntu:18.04
 VOLUME ["/var/nginx/"]
 
 # Update and Install packages
-RUN apt-get update
-RUN apt-get install -y openssh-server
-RUN apt-get install -y vim
-RUN apt-get install -y nginx
+RUN add-apt-repository ppa:certbot/certbot
+RUN apt update
+RUN apt install -y openssh-server
+RUN apt install -y vim
+RUN apt install -y nginx
+RUN apt install python-certbot-nginx
 
 # SSH config
 RUN mkdir /var/run/sshd

@@ -16,7 +16,7 @@ A docker build source for nginx as front-end proxy
 1. Build image
 
 ```
-docker build .
+docker build -t maclarensg/nginx .
 ```
 
 2. Modify docker-compose.yaml
