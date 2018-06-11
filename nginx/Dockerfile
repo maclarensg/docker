@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 # Volume for shared nginx files
 VOLUME ["/var/nginx/"]
@@ -33,6 +33,9 @@ RUN chmod +x /etc/init.d/nginx
 # Copy and Extract templates
 COPY template.tar.gz /var/
 RUN tar xzvf /var/template.tar.gz -C /var
+
+# Create a placeholder for SSL
+RUN mkdir -p /var/ssl
 
 # Set Prompt
 RUN echo "PS1='🐳  \[\033[1;36m\]\h \[\033[1;34m\]\W\[\033[0;35m\] \[\033[1;36m\]# \[\033[0m\]'" >> /root/.bashrc
